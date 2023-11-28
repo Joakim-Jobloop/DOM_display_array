@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+#people-output {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin: 24px;
+}
+
+.person_wrapper {
+    margin: 24px;
+    background-color: bisque;
+    padding: 24px;
+}
+
+h3 {
+    font-size: 30px;
+}
